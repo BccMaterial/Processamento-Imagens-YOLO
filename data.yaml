@@ -1,0 +1,13 @@
+train: ./data/train/images
+val: ./data/valid/images
+test: ./data/test/images
+
+nc: 1
+names: ['inimigos']
+
+roboflow:
+  workspace: meu-workspace-r5ta0
+  project: megaman-xgegs
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/meu-workspace-r5ta0/megaman-xgegs/dataset/2
